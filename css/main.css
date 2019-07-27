@@ -40,7 +40,7 @@ header{
    color: #3D37F1;
 }
 
-nav{
+.main-nav{
    display: flex;
    flex-flow: row nowrap;
    justify-content: space-around;
@@ -48,7 +48,7 @@ nav{
    width: 50%;
 }
 
-nav ul{
+.main-nav ul{
    display: flex;
    flex-flow: row nowrap;
    justify-content: space-around;
@@ -57,14 +57,14 @@ nav ul{
 
 }
 
-nav ul li a{
+.main-nav ul li a{
    font-size: 20px;
    text-decoration: none;
    color: #fff;
 
 }
 
-nav ul li a:hover{
+.main-nav ul li a:hover{
    color: #cfc;
    transition: all 500ms;
 }
@@ -337,6 +337,97 @@ nav ul li a:hover{
    margin-top: 25px;
    color: #686868;
 
+}
+
+.portfolio-block{
+   display: flex;
+   flex-flow: row no-wrap;
+   justify-content: space-around;
+   background-color: #f8f8f8;
+   padding: 200px 300px;
+
+}
+
+.portfolio-content{
+   display: flex;
+   flex-flow: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   
+}
+
+.portfolio-content h3{
+   font-size: 40px;
+   line-height: 40px;
+   font-weight: 700;
+   color: #5A5454;
+}
+
+.portfolio-content p{
+   font-size: 22px;
+   font-family: 'Roboto', sans-serif;
+   line-height: 40px;
+   font-weight: 300;
+   text-align: left;
+   color: #747474;
+}
+
+.portfolio-nav{
+   display: flex;
+   flex-flow: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin:  70px 0;
+}
+
+
+.portfolio-nav ul{
+   list-style: none;
+}
+
+.portfolio-nav ul li{
+   margin: 20px 0;
+   padding: 5px 0;
+}
+
+.portfolio-nav ul li:hover{
+   border-bottom: 2px solid #3D37F1;
+   transition: all ease-in-out 300ms;
+}
+
+
+.portfolio-nav ul li a{
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   line-height: 40px;
+   font-weight: 400;
+   text-decoration: none;
+   color: #969CA2;
+}
+
+.portfolio-nav ul li a:hover{
+   color: #3D37F1;
+   transition: all ease-in-out 500ms;
+}
+
+.portfolio-items{
+   display: flex;
+}
+
+.designs-tipe{
+   display: flex;
+   flex-flow: row;
+   justify-content: space-between;
+}
+
+.first-column img, .second-column img{
+   display: flex;
+   flex-flow: column;
+   justify-content: space-between;
+   width: 400px;
+   height: 400px;
+   margin: 0;
+   padding: 0;
 }
 
 
