@@ -721,6 +721,119 @@ p.descr{
    url(../svg/Rectangle\ 198.svg) center no-repeat;
    background-size: 170%;
  }
+
+.workflow-block{
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-around;
+   padding: 150px 100px;
+}
+
+.workflow-content{
+   display: flex;
+   flex-flow: column;
+   align-items: flex-start;
+}
+
+.workflow-content h3{
+   font-size: 22px;
+   font-weight: 600;
+   margin: 10px 0;
+   color: #5A5454;
+}
+
+.workflow-content p.subtitle{
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   line-height: 28px;
+   width: 500px;
+   margin: 0 0 20px 0;
+   color: #747474;
+}
+
+.workflow-items{
+   display: flex;
+   flex-flow: row wrap;
+   width: 800px;
+   justify-content: flex-start;
+
+}
+
+.workflow-item{
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: flex-start;
+   width: 300px;
+   margin: 10px 30px 10px 0;
+}
+
+.marker{
+   font-family: 'Roboto', sans-serif;
+   font-size: 20;
+   color: #fff;
+   padding: 15px 20px;
+   margin-top: 15px;
+   margin-right: 20px;
+   border-radius: 50%;
+   background-color: #3D37F1;
+}
+
+.workflow-descr h5{
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   margin: 10px 0;
+   color: #747474;
+}
+.workflow-descr p{
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   line-height: 24px;
+   font-weight: 300;
+   color: #747474;
+
+}
+
+.two{
+   background-color: #9997DF;
+}
+
+.three{
+   background-color:#FFBA3F; 
+}
+
+.four{
+   background-color: #37F1BE;
+}
+
+.five{
+   background-color: #66659F;
+}
+
+.six{
+   background-color: #F17637;
+}
+.seven{
+   background-color: #37F1BE;
+}
+.eight{
+   background-color: #F137E5;
+}
+.nine{
+   background-color: #F13D37;
+}
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
